@@ -1,6 +1,6 @@
 import configparser
 
 config=configparser.ConfigParser()
-config.read('configuartion.config')
+config.read('config/configuartion.properties')
 
-baseUrl=config['DEFAULT']['base_url']
+baseUrl=config['DEFAULT']['base_urlone']
